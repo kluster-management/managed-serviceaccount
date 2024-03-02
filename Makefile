@@ -13,7 +13,7 @@ else
 GOBIN=$(shell go env GOBIN)
 endif
 
-export CGO_ENABLED  = 1
+export CGO_ENABLED  = 0
 export GOFLAGS ?=
 
 # Setting SHELL to bash allows bash commands to be executed by recipes.
